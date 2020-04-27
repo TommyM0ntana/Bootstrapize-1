@@ -6,15 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://kit.fontawesome.com/e61190632e.js" crossorigin="anonymous"></script>
-
-
   <link rel="stylesheet" href="./css/bootstrap.css">
-
-
-
   <link rel="stylesheet" href="css/style.css">
   <title>RemoteTech</title>
-
 </head>
 
 <body>
@@ -46,13 +40,51 @@
     </div>
   </nav> -->
 
-  <nav class="navbar navbar-expand-md navbar-light fixed-top">
-    <div class="container">
+  <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+    <div class="container p-2">
       <a class='navbar-brand' href="#home">
-
+        <h3 class="d-inline align-middle">RemoteTech</h3>
       </a>
+      <button class="navbar-toggler " data-toggle="collapse" data-target='#navbarc'>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarc">
+        <ul class="navbar-nav ml-auto mx-3">
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="#Explore">Explore</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
+
+  <section class="py-5" id="showcase">
+    <div class="primary-overlay text-white">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-lg-6 text-center mt-5">
+            <h1 class="display-4 mt-5">Partecipate to the Remote comunity</h1>
+            <p class="lead"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, dolorem!
+            </p>
+            <a href="" class="btn btn-outline-secondary btn-lg text-white mt-2">
+              <i class="fas fa-arrow-right"> Read More</i>
+            </a>
+          </div>
+          <div class="col-lg-6 ">
+            <img class="img-fluid d-none d-lg-block mt-5" src="./img/main-1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
 
   <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
