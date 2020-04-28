@@ -11,7 +11,7 @@
   <title>RemoteTech</title>
 </head>
 
-<body>
+<body id='home' data-spy='scroll' data-targe='#main-nav'>
   <!-- navbar-expand-sm to make it responsive on mobile, navbar is gonna be fixed fixed-top, just 
   title-brand and other 4 links on the right  dark-navbar with bg-dark 
   -->
@@ -40,10 +40,11 @@
     </div>
   </nav> -->
 
-  <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+  <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top" id='main-nav'>
     <div class="container p-2">
       <a class='navbar-brand' href="#home">
-        <h3 class="d-inline align-middle">RemoteTech</h3>
+        <img src="./img/analitics.png" alt="">
+        <h3 class="d-inline align-middle ml-1">RemoteTech</h3>
       </a>
       <button class="navbar-toggler " data-toggle="collapse" data-target='#navbarc'>
         <span class="navbar-toggler-icon"></span>
@@ -54,10 +55,10 @@
             <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="#subscribe">Subscribe</a>
           </li>
           <li class="nav-item px-2">
-            <a class="nav-link" href="#Explore">Explore</a>
+            <a class="nav-link" href="#explore">Explore</a>
           </li>
         </ul>
       </div>
@@ -66,7 +67,10 @@
 
   <section class="py-5" id="showcase">
     <div class="primary-overlay text-white">
-      <div class="container mt-5">
+      <div class="video-container primary-overlay text-white">
+        <video src="https://traversymedia.com/downloads/video.mov" autoplay muted loop></video>
+      </div>
+      <div class="container top mt-5">
         <div class="row">
           <div class="col-lg-6 text-center mt-5">
             <h1 class="display-4 mt-5">Partecipate to the Remote comunity</h1>
@@ -83,23 +87,203 @@
       </div>
     </div>
 
+    <section class="newsletter text-white" id="subscribe">
+      <div class="container news ">
+        <div class="row">
 
-    <section class="newsletter text-white py-5" id="newsletter">
-      <div class="container">
-        <div class="row px-3">
-          <div class="col-md-4 my-3">
+          <div class="col-md-6 mt-5">
             <input type="text" class="form-control form-control" placeholder='Enter Name'>
           </div>
-          <div class="col-md-4 my-3">
+          <div class="col-md-6 mt-5">
             <input type="text" class="form-control form-control" placeholder='Enter Email'>
           </div>
-          <div class="col-md-4 my-3">
+          <div class="col-md-12 mt-5">
             <button class="btn btn-block btn-primary">Subscribe</button>
           </div>
         </div>
+
+
       </div>
     </section>
   </section>
+
+
+  <section id="explore" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-center bg-primary mt-3">
+            <div class="card-body">
+              <h3 class="card-header text-light ">Became Better</h3>
+              <p class="text-light mt-2">Just challenge you and be creative</p>
+              <p class="text-light mt-2">Just challenge you and be creative</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center bg-danger mt-3">
+            <div class="card-body">
+              <h3 class="card-header text-light ">Open your Mind</h3>
+              <p class="text-light mt-2">Just challenge you and be creative.</p>
+              <p class="text-light mt-2">Just challenge you and be creative.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center bg-dark mt-3">
+            <div class="card-body">
+              <h3 class="card-header text-light ">Beat the intelligence</h3>
+              <p class="text-light mt-2">Just challenge you and be creative</p>
+              <p class="text-light mt-2">Just challenge you and be creative.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="authors" class=" my-5 text-center">
+    <div class="container px-5">
+      <div class="row">
+        <div class="col">
+          <div class="info-header mx-5">
+            <h1 class="text-dark px-3 ">
+              Meet Some of the Partecipants
+            </h1>
+            <p class="lead pb-5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident aperiam nobis a voluptatem culpa quis.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <img src="" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3 class="mb-4">John james</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae itaque
+                uscipit facilis eos, cumque cum
+                voluptatem reprehenderit distinctio.</p>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <img src="" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3 class="mb-4">John james</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae itaque
+
+                voluptatem reprehenderit distinctio.</p>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <img src="" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3 class="mb-4">John james</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae itaque
+                e fuga accusantium optio quidem, suscipit facilis eos, cumque cum
+                voluptatem reprehenderit distinctio.</p>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <img src="" alt="" class="img-fluid rounded-circle w-50 mb-3">
+              <h3 class="mb-4">John james</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae itaque
+                impedit quo perspiciatis
+                voluptatem reprehenderit distinctio.</h5>
+                <div class="d-flex justify-content-center">
+                  <div class="p-4">
+                    <a href="">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div class="p-4">
+                    <a href="">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
   <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -142,7 +326,7 @@
     crossorigin="anonymous"></script>
 
   <script>
-
+    $('body').scrollspy({ target: '#main-nav' })
   </script>
 </body>
 
